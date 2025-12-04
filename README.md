@@ -1,159 +1,126 @@
-# Hidden-World
-**🌍 Travel Management System**
+# Hidden-World – Travel Management System
 
-A full-stack PHP web application for exploring destinations, managing trips, handling bookings, and providing admin control over content, users, and packages.
+Hidden-World is a full-stack PHP-based Travel Management System that allows users to explore destinations, book trips, and browse galleries, while providing admins full control over content, bookings, and user management.  
+It integrates MySQL for data storage and uses a Bootstrap-based responsive frontend.
 
-**📌 Overview**
+---
 
-This Travel Management System allows users to browse tourist destinations, view details, create accounts, and book travel packages.
-Admins can manage destinations, trips, galleries, users, bookings, and upload media.
+## 🚀 Features
 
-The project includes:
+**✅ User Features**
 
-User-facing website (Home, Destinations, Gallery, Booking, Contact)
+- Register / Login  
+- Browse destinations  
+- View trip details  
+- Submit booking requests  
+- Explore gallery images  
+- Contact form  
 
-Admin dashboard (Manage Users, Trips, Places, Gallery, Bookings)
+---
 
-MySQL database integration
+**🛠️ Admin Features**
 
-File upload system for images
+- Admin authentication  
+- Manage destinations & places  
+- Add / update / delete travel packages  
+- Upload gallery images  
+- Manage bookings  
+- View registered users  
+- Dashboard with statistics  
 
-Responsive UI with Bootstrap
+---
 
-**🧭 Features**
+## 🧩 Tech Stack
 
-**✔️ User Features**
+### Frontend:
 
-Register / Login
+- HTML5  
+- CSS3  
+- JavaScript / jQuery  
+- Bootstrap  
 
-Browse destinations
+### Backend:
 
-View trip details
+- PHP (Procedural)  
+- MySQL  
 
-Submit booking requests
+### Libraries / Plugins:
 
-View gallery images
+- jQuery plugins  
+- Owl Carousel  
+- DataTables  
+- Font Awesome  
+- Various admin panel UI scripts  
 
-Contact form
+---
 
-**✔️ Admin Features**
-
-Admin authentication
-
-Manage destinations & places
-
-Add/update/delete travel packages
-
-Upload gallery images
-
-Manage bookings
-
-View and manage registered users
-
-Dashboard with statistics
-
-**🛠️ Tech Stack**
-
-**Frontend**
-
-HTML5
-
-CSS3
-
-JavaScript / jQuery
-
-Bootstrap
-
-**Backend**
-
-PHP (Procedural)
-
-MySQL Database
-
-Libraries / Plugins
-
-jQuery plugins
-
-Owl Carousel
-
-DataTables
-
-Font Awesome
-
-Various admin panel UI scripts
-
-**📂 Project Structure**
+## 📁 Project Structure
 
 <img width="557" height="424" alt="image" src="https://github.com/user-attachments/assets/92eeb176-193d-451d-bc12-6b5fe84c28bf" />
 
+---
 
-**⚙️ Installation & Setup**
+## ⚙️ Installation & Setup
 
-**1️⃣ Requirements**
+### 1️⃣ Requirements
 
-PHP 7+
+- PHP 7+  
+- MySQL / MariaDB  
+- Apache or any PHP-enabled server  
+- Composer (optional)  
 
-MySQL / MariaDB
+### 2️⃣ Setup Steps
 
-Apache or any PHP-enabled server
+1. Extract the project folder into your server directory:
 
-Composer (optional but recommended)
-
-**2️⃣ Setup Steps**
-
-1. Extract the project folder
-
-Place it in your server directory:
-
+```
 htdocs/Project
+```
 
-2. Import the database
+2. Import the database:  
+   - Open phpMyAdmin  
+   - Create a database (e.g., `travelms`)  
+   - Import the provided SQL file  
 
-Open phpMyAdmin
+3. Configure database  
+   Open `config.php` and update credentials:
 
-Create a database (e.g., travelms)
-
-Import the SQL file (if provided)
-
-3. Configure database
-
-Open config.php and update your DB credentials:
-
-$servername="localhost";
-$username="root";
-$password="";
-$dbname="travelms";
+```
+$servername = "localhost";
+$username   = "root";
+$password   = "";
+$dbname     = "travelms";
+```
 
 4. Run the project
 
-Visit:
-
+👉 User Website:  
 http://localhost/Project/
 
-
-Admin URL:
-
+👉 Admin Panel:  
 http://localhost/Project/admin/
 
-**🔐 Default Admin Credentials**
+---
 
-(If provided in DB; otherwise you must create manually)
+## 🔐 Default Admin Credentials
 
-Username: admin
-Password: admin123  (or as set in database)
+*(If included in database; otherwise create manually)*
 
-**🎯 Future Enhancements**
+- **Username:** admin  
+- **Password:** admin123  
 
-Online payment integration
+---
 
-Email notifications
+## 🔮 Future Enhancements
 
-User profile dashboard
+- Online payment integration  
+- Email notifications  
+- User profile dashboard  
+- Review & rating system  
+- REST API endpoints  
 
-Review & rating system
+---
 
-REST API endpoints
+## 🙌 Author
 
-**👨‍💻 Author**
-
-Udit Chowdary Jasti
+**Udit Chowdary Jasti**
